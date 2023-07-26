@@ -33,7 +33,7 @@ contract ProposalGreenEarthVoting is Ownable, InitData {
         _initializeData();
         votingStartTime = startTime_;
         votingEndTime = endTime_;
-        TOKEN_VOTING = IERC20(0xF2A7Fc56752A34500Cb2d7b53AD623b606EECdcf);
+        TOKEN_VOTING = IERC20(0x5de6CA1f91fB0d92dd0aaf34CDe761d9540CFEC7);
     }
 
     modifier _checkDate() {
